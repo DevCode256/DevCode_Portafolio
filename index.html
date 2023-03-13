@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,22 @@
     <!-- enlace de los icon  -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <header class="header">
         <!-- <a href="img/icono de la empresa.webp" class="logo">Dev Code</a> -->
-        <span class="logo" onclick="scrollToSection('home')">
-            <img src="./img/icono de la empresa.webp" alt="Logo portafolio" height="150px">
-        </span>
+        <div class="logo">
+            <img src="./img/icono de la empresa.webp" alt="Logo portafolio" height="120px">
+        </div>
 
-        <i class='bx bx-menu'  id="menu-icon"></i>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#" style="--i:1"; class="active">Inicio</a>
-            <a href="#" style="--i:2";>Servicios</a>
-            <a href="#" style="--i:3";>Proyectos</a>
-            <a href="#" style="--i:4";>Misión</a>
-            <a href="#" style="--i:5";>Visión</a>
+            <a href="#" style="--i:1" ; class="active">Inicio</a>
+            <a href="#Servicios" style="--i:2" ;>Servicios</a>
+            <a href="#proyectos" style="--i:3" ;>Proyectos</a>
+            <a href="#" style="--i:4" ;>Misión</a>
+            <a href="#" style="--i:5" ;>Visión</a>
         </nav>
     </header>
     <!-- home -->
@@ -31,121 +33,192 @@
         <div class="home-content">
             <h3>Bienvenidos!</h3>
             <h1>Dev Code</h1>
-            <h3>Soluciones Tecnológicas <span class="multiple-text"></span></h3>
+            <h3>Soluciones Tecnológicas: <span class="multiple-text"></span></h3>
             <p>Somos un equipo de desarrollo en tecnologías de información, enfocados
                 en brindarte la mejor solución digital y tecnológica para tu negocio,
-                asi como los servicios de desarrollo de aplicaciones web, móviles y de 
+                asi como tlos servicios de desarrollo de aplicaciones web, móviles y de
                 escritorio.
                 <br>
-                 <br>
+                <br>
                 Utilizamos las tecnologías de punta para el beneficio y la optimizacion de los procesos de negocios
                 de nuestros clientes de acuerdo a sus nesecidades y asi garantizar el éxito de los
                 mismos.
             </p>
-              <div class="social-media">
-                <a href="#" style="--i:6";><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#" style="--i:7";><i class='bx bxl-youtube' ></i></a>
-                <a href="#" style="--i:8";><i class='bx bxl-instagram' ></i></a>
-                <a href="#" style="--i:9";><i class='bx bxl-github' ></i></a>
-                <a href="#" style="--i:10";><i class='bx bxl-tiktok' ></i></a>
-                <a href="#" style="--i:11";><i class='bx bxl-linkedin-square' ></i></a>
-              </div>
-              <a href="#" class="btn">Contactanos</a>  
-              <a href="#" class="btn1">WhatsApp</a> 
+            <div class="social-media">
+                <a href="#" ;><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" ;><i class='bx bxl-youtube'></i></a>
+                <a href="#" ;><i class='bx bxl-instagram'></i></a>
+                <a href="#" ;><i class='bx bxl-github'></i></a>
+                <a href="#" ;><i class='bx bxl-tiktok'></i></a>
+                <a href="#" ;><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <a href="#" class="btn">Contactanos</a>
+            <a href="#" class="btn1">WhatsApp</a>
         </div>
 
         <div class="home-img">
-            <img src="img/portada.png" alt="">
+            <img src="img/foto-perfil.png" alt="">
         </div>
     </section>
     <!-- abaout section  -->
-    <!-- <section class="about" id="about">
-        <div class="about-img">
-             <img src="img/foto-perfil.png" alt="">
-        </div>
+    <section class="about" id="about">
         <div class="about-content">
-            <h2 class="heading">Ayuda <span>Me</span></h2>
-            <h3>Frontend Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit eius dignissimos.
-                 Maxime maiores saepe numquam ipsum, veritatis reiciendis incidunt, molestias laboriosam expedita distinctio beatae, 
-                 inventore itaque dolorem possimus modi!</p>
-                 <a href="#" class="btn">Ver mas</a>
+            <h2 class="heading">¿Quieres un <span> Sitio Web?</span></h2>
+            <h3>Cotiza con Nosotros</h3>
+            <p>No esperes más para comenzar a construir tu presencia en línea. Si quieres destacar frente a tu competencia, ¡el momento de crear tu sitio web es ahora! Con nuestra ayuda, podrás diseñar y desarrollar un sitio web 
+                personalizado que refleje la esencia de tu marca y que te permita conectarte con tu audiencia de manera efectiva.
+                Comienza ¡AHORA MISMO! </p>
+            <a href="#" class="btn">¡Cotiza Ahora!</a>
         </div>
-    </section> -->
-    <!-- seccion de servicios  -->
-    <div class="container">
-        <h1>Nuestros Servicios</h1>
-        <div class="row">
-            <div class="service">
-                <i class='bx bx-laptop'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
+    </section>
+    <!-- fin de la seccion about -->
+    <!-- inicio de seccion de servicios -->
+    <section class="services" id="Servicios">
+        <h2 class="heading">Nuestros <span>Servicios</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desarrollador Backend</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur corrupti culpa
+                    saepe quia nihil dolore non iste debitis porro ex?</p>
+                <a href="#" class="btn">Leer mas</a>
             </div>
-            <div class="service">
-                <i class='bx bx-bar-chart'></i>
-                <h2>Marketing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
+
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>desarrollo Web</h3>
+                <p>Nos enfocamos en crear sitios web intuitivos, atractivos y seguros, que se adapten a tus necesidades y las de tus clientes. 
+                    Si quieres llevar tu presencia en línea al siguiente nivel, ¡contáctanos ahora para conocer más sobre nuestros servicios de desarrollo web!</p>
+                <a href="#" class="btn">Leer mas</a>
             </div>
-            <div class="service">
-                <i class='bx bxs-webcam'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
-            </div>
-            <div class="service">
-                <i class='bx bxs-slideshow'></i> 
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
-            </div>
-            <div class="service">
-                <i class='bx bxs-network-chart'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
-            </div>
-            <div class="service">
-                <i class='bx bxs-data'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
-            </div>
-            <div class="service">
-                <i class='bx bxl-play-store'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
-            </div>
-            <div class="service">
-                <i class='bx bx-cart-download'></i>
-                <h2>web Desing</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
-                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
-                     reprehenderit eligendi nostrum!</p>
+
+
+            <div class="services-box">
+                <i class='bx bx-line-chart'></i>
+                <h3>Marketinkg</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Tenetur corrupti culpa
+                    saepe quia nihil dolore non iste debitis porro ex?</p>
+                <a href="#" class="btn">Leer mas</a>
             </div>
         </div>
-    </div>
-    <!--fin de la seccion de servicios  -->
+    </section>
+    <!-- fin de seccion de servicios -->
+    <!-- inicio del portafolio o Proyectos -->
+    <section class="portafolio" id="proyectos">
+        <h2 class="heading">Nuestros <span>Proyectos</span></h2>
+        <div class="portafolio-container">
+            <div class="portafolio-box">
+                <img src="img/descar.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                    <div class="iconenlaces">
+                        <a href="#"><i class='bx bx-link'></i></a>
+                        <a href="#"><i class='bx bxs-like'></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/descarga.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                        <div class="iconenlaces">
+                            <a href="#"><i class='bx bx-link'></i></a>
+                            <a href="#"><i class='bx bxs-like'></i></i></a>
+                        </div>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/image.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                        <div class="iconenlaces">
+                            <a href="#"><i class='bx bx-link'></i></a>
+                            <a href="#"><i class='bx bxs-like'></i></i></a>
+                        </div>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/images.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                    <div class="iconenlaces">
+                        <a href="#"><i class='bx bx-link'></i></a>
+                        <a href="#"><i class='bx bxs-like'></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/image.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                        <div class="iconenlaces">
+                            <a href="#"><i class='bx bx-link'></i></a>
+                            <a href="#"><i class='bx bxs-like'></i></i></a>
+                        </div>
+                </div>
+            </div>
+            <div class="portafolio-box">
+                <img src="img/descar.jfif" alt="">
+                <div class="portafolio-layer">
+                    <h4>web Desing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi, alias.</p>
+                        <div class="iconenlaces">
+                            <a href="#"><i class='bx bx-link'></i></a>
+                            <a href="#"><i class='bx bxs-like'></i></i></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin delos proyectos  -->
+    <!-- inicio de Contactanos -->
+    <section class="contact" id="contacto">
+        <h2 class="heading">Ponte en <span>Contacto</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Mesage"></textarea>
+            <input type="submit" value="Send Menssage" class="btn">
+        </form>
+    </section>
+    <!-- fin de contacto -->
+    <!-- el footer inicio -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 creado por ELISAY | Todos los derechos reservados. </p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-circle'></i></a>
+        </div>
+    </footer>
+    <!-- fin del footer -->
+
+    <!-- scrol reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script src="script.js"></script>
 </body>
+
 </html>
