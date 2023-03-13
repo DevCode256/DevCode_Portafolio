@@ -1,6 +1,6 @@
 var typed = new Typed(".multiple-text", {
 
-    strings: ["Desarrollo Web", "programador", "Youtuber", "Blogger", 
+    strings: ["Desarrollo Web", "Creador de Cotenido", "Implementación de LMS", "Implementación de CMS", 
     "Soporte Técnico"],
     typeSpeed:100,
     backSpeed: 100,
