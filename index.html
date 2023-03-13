@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev code</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- enlace de los icon  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <!-- <a href="img/icono de la empresa.webp" class="logo">Dev Code</a> -->
+        <span class="logo" onclick="scrollToSection('home')">
+            <img src="./img/icono de la empresa.webp" alt="Logo portafolio" height="150px">
+        </span>
+
+        <i class='bx bx-menu'  id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1"; class="active">Inicio</a>
+            <a href="#" style="--i:2";>Servicios</a>
+            <a href="#" style="--i:3";>Proyectos</a>
+            <a href="#" style="--i:4";>Misión</a>
+            <a href="#" style="--i:5";>Visión</a>
+        </nav>
+    </header>
+    <!-- home -->
+    <section class="home">
+        <div class="home-content">
+            <h3>Bienvenidos!</h3>
+            <h1>Dev Code</h1>
+            <h3>Soluciones Tecnológicas <span class="multiple-text"></span></h3>
+            <p>Somos un equipo de desarrollo en tecnologías de información, enfocados
+                en brindarte la mejor solución digital y tecnológica para tu negocio,
+                asi como los servicios de desarrollo de aplicaciones web, móviles y de 
+                escritorio.
+                <br>
+                 <br>
+                Utilizamos las tecnologías de punta para el beneficio y la optimizacion de los procesos de negocios
+                de nuestros clientes de acuerdo a sus nesecidades y asi garantizar el éxito de los
+                mismos.
+            </p>
+              <div class="social-media">
+                <a href="#" style="--i:6";><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" style="--i:7";><i class='bx bxl-youtube' ></i></a>
+                <a href="#" style="--i:8";><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:9";><i class='bx bxl-github' ></i></a>
+                <a href="#" style="--i:10";><i class='bx bxl-tiktok' ></i></a>
+                <a href="#" style="--i:11";><i class='bx bxl-linkedin-square' ></i></a>
+              </div>
+              <a href="#" class="btn">Contactanos</a>  
+              <a href="#" class="btn1">WhatsApp</a> 
+        </div>
+
+        <div class="home-img">
+            <img src="img/portada.png" alt="">
+        </div>
+    </section>
+    <!-- abaout section  -->
+    <!-- <section class="about" id="about">
+        <div class="about-img">
+             <img src="img/foto-perfil.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Ayuda <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit eius dignissimos.
+                 Maxime maiores saepe numquam ipsum, veritatis reiciendis incidunt, molestias laboriosam expedita distinctio beatae, 
+                 inventore itaque dolorem possimus modi!</p>
+                 <a href="#" class="btn">Ver mas</a>
+        </div>
+    </section> -->
+    <!-- seccion de servicios  -->
+    <div class="container">
+        <h1>Nuestros Servicios</h1>
+        <div class="row">
+            <div class="service">
+                <i class='bx bx-laptop'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bx-bar-chart'></i>
+                <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-webcam'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-slideshow'></i> 
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-network-chart'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-data'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bxl-play-store'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+            <div class="service">
+                <i class='bx bx-cart-download'></i>
+                <h2>web Desing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta reiciendis quis optio nesciunt neque voluptatibus,
+                     fuga fugiat. Doloribus quia sunt nisi aliquid veniam accusamus impedit magnam quod, 
+                     reprehenderit eligendi nostrum!</p>
+            </div>
+        </div>
+    </div>
+    <!--fin de la seccion de servicios  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
