@@ -16,7 +16,7 @@ t.textContent=w.slice(0,c);
 if(c === w.length) setTimeout(() => t.textContent += '${e}, 500');
 }, 500);
 
-//togle incon navbar para que aparesca y desapáresca el icono
+//togle incon navbar para que aparesca y desapáresca el icono del menu
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -24,9 +24,9 @@ menuIcon.onclick =() => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 };
-//scroll sectiones active link
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+//scroll sectiones active los link del menu 
+//let sections = document.querySelectorAll('section');
+//let navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll =()=>{
     sections.forEach(sec =>{
@@ -51,15 +51,15 @@ window.onscroll =()=>{
     navbar.classList.toggle('active');
 };
 
-//scroll reveal esto es para darle movimiento ala pgina web
-ScrollReveal({ 
+//scroll reveal esto es para darle movimiento ala pgina web y hacerlo que se aparesca el menu 
+//ScrollReveal({ 
     reset: true, 
     distance: '80px',
     duration: 2000,
     delay: 200
-});
+//});
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .services-container, .portafolio-box, .contact form ', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+//ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+//ScrollReveal().reveal('.home-img, .services-container, .portafolio-box, .contact form ', { origin: 'bottom' });
+//ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+//ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
