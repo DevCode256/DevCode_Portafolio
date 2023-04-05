@@ -47,17 +47,19 @@ window.onscroll =()=>{
     header.classList.toggle('sticky', window.scrollY > 100);
 
     //remove togle icon and navar when  click navbar  link (scroll)
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
+    //menuIcon.classList.toggle('bx-x');
+    //navbar.classList.toggle('active');
 };
 
 //scroll reveal esto es para darle movimiento ala pgina web
 ScrollReveal({ 
     reset: true, 
-    distance: '80px',
+    distance: '20px',
     duration: 2000,
     delay: 200
 });
+
+
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portafolio-box, .contact form ', { origin: 'bottom' });
